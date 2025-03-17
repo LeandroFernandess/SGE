@@ -208,8 +208,10 @@ Contribuições são bem-vindas! Caso tenha sugestões ou encontre problemas, ab
 Caso tenha dúvidas ou sugestões, entre em contato:
 
 Nome: Leandro Fernandes
+
 Email: leandrofernandes1600@gmail.com
+
 GitHub: https://github.com/LeandroFernandess
 
-Documentação atualizada em: 11/01/2025. 🚀
+Documentação atualizada em: 16/03/2025. 🚀
 
