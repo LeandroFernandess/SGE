@@ -13,7 +13,7 @@ Um sistema desenvolvido com Django, HTML, CSS e JavaScript para gerenciamento de
 ## Estrutura do Projeto 📂
 
 ```
-project/
+SGE/
 ├── app/
 │   ├── templates/
 │   │   ├── components/
@@ -29,6 +29,7 @@ project/
 │   │   ├── home.html
 │   ├── asgi.py
 │   ├── settings.py
+│   ├── metrics.py
 │   ├── urls.py
 │   ├── views.py
 │   ├── wsgi.py
@@ -85,6 +86,7 @@ project/
 │   ├── forms.py
 │   ├── models.py
 │   ├── serializers.py
+│   ├── signals.py
 │   ├── views.py
 │   ├── urls.py
 │
@@ -102,6 +104,7 @@ project/
 │   ├── forms.py
 │   ├── models.py
 │   ├── serializers.py
+│   ├── signals.py
 │   ├── views.py
 │   ├── urls.py
 │
@@ -139,14 +142,11 @@ project/
 │   ├── views.py
 │   ├── urls.py
 │
-├── veriv/
-│   ├── Jiake8/
-│   ├── .gitignore
-│   ├── db.sqlite3
-│   ├── documentacjb.txt
-│   ├── manage.py
-│   ├── requirements_dev.txt
-│   ├── requirements.txt
+├── .flake8
+├── .gitignore
+├── manage.py
+├── requirements_dev.txt
+├── requirements.txt
 ```
 
 ## Principais Pastas e Arquivos
