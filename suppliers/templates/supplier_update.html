@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="conteiner mt-4">
+    <h3 class="display-6">Editar fornecedor</h3>
+
+    <div class="card">
+        <div class="card-body">
+            <form method="post" class="form">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Atualizar fornecedor</button>
+            </form>
+            <a href="{% url 'supplier_list' %}" class="btn btn-secondary mt-3">Voltar para listagem de fornecedores</a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

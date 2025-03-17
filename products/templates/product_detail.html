@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-4">
+    <h3 class="display-6">Detalhes do produto</h3>
+
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-tittle"> {{ object.title }}</h3>
+            <p class="card-text">{{ object.category }}</p>
+            <p class="card-text">{{ object.brand }}</p>
+            <p class="card-text">{{ object.description }}</p>
+            <p class="card-text">Número de sério: <strong>{{ object.serie_number }}</strong></p>
+            <p class="card-text">Preço de custo: <strong>R$ {{ object.cost_price }}</strong></p>
+            <p class="card-text">Preço de venda: <strong>R$ {{ object.selling_price }}</strong></p>
+            <p class="card-text">Quantidade em estoque: <strong>{{ object.quantity }}</strong></p>
+        </div>
+    </div>
+    <a href="{% url 'product_list' %}" class="btn btn-secondary mt-3">Voltar para lista de produtos</a>
+</div>
+
+{% endblock %}
