@@ -70,6 +70,83 @@ project/
 │   ├── models.py
 │   ├── views.py
 │   ├── urls.py
+│
+├── inflows/
+│   ├── migrations/
+│   │   ├── 0001_initial.py
+│   ├── templates/
+│   │   ├── inflow_create.html
+│   │   ├── inflow_delete.html
+│   │   ├── inflow_detail.html
+│   │   ├── inflow_list.html
+│   │   ├── inflow_update.html
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
+│
+├── outflows/
+│   ├── migrations/
+│   │   ├── 0001_initial.py
+│   ├── templates/
+│   │   ├── outflow_create.html
+│   │   ├── outflow_delete.html
+│   │   ├── outflow_detail.html
+│   │   ├── outflow_list.html
+│   │   ├── outflow_update.html
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
+│
+├── products/
+│   ├── migrations/
+│   │   ├── 0001_initial.py
+│   ├── templates/
+│   │   ├── product_create.html
+│   │   ├── product_delete.html
+│   │   ├── product_detail.html
+│   │   ├── product_list.html
+│   │   ├── product_update.html
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
+│
+├── suppliers/
+│   ├── migrations/
+│   │   ├── 0001_initial.py
+│   ├── templates/
+│   │   ├── supplier_create.html
+│   │   ├── supplier_delete.html
+│   │   ├── supplier_detail.html
+│   │   ├── supplier_list.html
+│   │   ├── supplier_update.html
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
+│
+├── veriv/
+│   ├── Jiake8/
+│   ├── .gitignore
+│   ├── db.sqlite3
+│   ├── documentacjb.txt
+│   ├── manage.py
+│   ├── requirements_dev.txt
+│   ├── requirements.txt
 ```
 
 ## Principais Pastas e Arquivos
