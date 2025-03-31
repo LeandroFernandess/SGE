@@ -3,3 +3,8 @@ db.sqlite3
 media
 __pycache__/
 documentação.txt
+docker.txt
+Dockerfile
+docker-compose.yml
+.dockerignore
+.vscode
